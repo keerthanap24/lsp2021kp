@@ -3,7 +3,7 @@ package org.howard.edu.lsp.assignment2.combination;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-class Combinations {
+public class Combinations{
   public void findCombinationsRecursive(ArrayList<Integer> nums, ArrayList<Integer> newNum, int sum){
     int s = 0;
     for (int x: newNum){
